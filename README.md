@@ -1,4 +1,3 @@
-```markdown
 # IntelliChat: Intelligent Chat System 💬
 
 ## Introduction

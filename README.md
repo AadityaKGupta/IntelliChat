@@ -1,5 +1,5 @@
 # IntelliChat 💬  
-**Full Name:** IntelliChat - Intelligent Chat System 💬  
+IntelliChat - Intelligent Chat System 💬  
 
 ## 📖 Overview  
 IntelliChat is an advanced chat application leveraging AI-driven interactions and real-time communication using WebSockets. It is designed for seamless conversations with a blend of intelligent responses and live messaging.  

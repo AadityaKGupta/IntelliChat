@@ -1,54 +1,81 @@
-# IntelliChat: Intelligent Chat System 💬
+# IntelliChat 💬  
+**Full Name:** IntelliChat - Intelligent Chat System 💬
 
-## Introduction
-**IntelliChat** is an intelligent chat application designed to facilitate seamless and efficient communication. It offers a robust backend and an interactive frontend, ensuring a smooth messaging experience.
+## 📖 Overview  
+IntelliChat is an advanced chat application leveraging AI-driven interactions and real-time communication using WebSockets. It is designed for seamless conversations with a blend of intelligent responses and live messaging.  
 
-## Features
-- 🔹 Real-time messaging  
-- 🔹 Secure user authentication  
-- 🔹 AI-powered chatbot responses (if applicable)  
-- 🔹 User-friendly interface  
-- 🔹 Scalable backend architecture  
+---
 
-## Project Structure
+## 🚀 Features  
+- AI-powered chat responses using Google Gemini API  
+- Secure authentication with JWT and bcrypt  
+- Real-time messaging via Socket.io  
+- MongoDB for database storage with Mongoose ODM  
+- CORS-enabled backend for smooth frontend-backend communication  
+- TailwindCSS for modern UI styling  
+
+---
+
+## 🛠️ Tech Stack  
+### **Frontend:**  
+- React.js  
+- Vite  
+- TailwindCSS  
+- Socket.io-client  
+- React Router  
+
+### **Backend:**  
+- Node.js  
+- Express.js  
+- MongoDB (Mongoose)  
+- Socket.io  
+- Redis (ioredis)  
+
+---
+
+## 📥 Installation & Setup  
+
+### 🔹 **1. Clone the Repository**  
+```bash
+git clone https://github.com/AadityaKGupta/IntelliChat.git
+cd IntelliChat
 ```
-IntelliChat/
-│── backend/   # Backend logic (Node.js/Express, or other frameworks)
-│── frontend/  # Frontend UI (React, HTML/CSS, JavaScript)
-│── temp.md    # Temporary notes or project details
+
+### 🔹 **2. Install Dependencies**  
+
+#### **Backend Dependencies:**  
+```bash
+cd backend
+npm install @google/generative-ai bcrypt cookie-parser cors dotenv express express-validator ioredis jsonwebtoken mongoose morgan socket.io
 ```
 
-## Technologies Used
-- **Frontend:** JavaScript, HTML, CSS  
-- **Backend:** Node.js, Express (if applicable)  
-- **Database:** MongoDB / MySQL (if applicable)  
+#### **Frontend Dependencies:**  
+```bash
+cd ../frontend
+npm install @webcontainer/api axios highlight.js markdown-to-jsx react react-dom react-router-dom remixicon socket.io-client @vitejs/plugin-react eslint eslint-plugin-react eslint-plugin-react-hooks eslint-plugin-react-refresh globals postcss tailwindcss vite autoprefixer
+```
 
-## Installation & Setup
-1. Clone the repository:  
-   ```bash
-   git clone https://github.com/AadityaKGupta/IntelliChat.git
-   ```
-2. Navigate to the project folder:  
-   ```bash
-   cd IntelliChat
-   ```
-3. Install dependencies (for both frontend & backend):  
-   ```bash
-   cd backend && npm install
-   cd ../frontend && npm install
-   ```
-4. Run the application:  
-   ```bash
-   cd backend && npm start
-   cd ../frontend && npm start
-   ```
+---
 
-## Contributions
-Contributions are welcome! Feel free to fork the repository and submit pull requests.
+## ▶️ Running the Application  
 
-## Contact  
+### 🔹 **Start the Backend Server**  
+```bash
+cd backend
+npx nodemon server.js
+```
+
+### 🔹 **Start the Frontend**  
+```bash
+cd ../frontend
+npm run dev
+```
+
+---
+
+## 📧 Contact  
 For any inquiries or feedback, please reach out to:  
 
 **Name:** Aaditya Kumar Gupta  
-**Email:** k.aaditya.g@gmail.com  
+**Email:** [k.aaditya.g@gmail.com](mailto:k.aaditya.g@gmail.com)  
 **GitHub:** [AadityaKGupta](https://github.com/AadityaKGupta)  

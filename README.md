@@ -1,5 +1,5 @@
 # IntelliChat 💬  
-**Full Name:** IntelliChat - Intelligent Chat System 💬
+**Full Name:** IntelliChat - Intelligent Chat System 💬  
 
 ## 📖 Overview  
 IntelliChat is an advanced chat application leveraging AI-driven interactions and real-time communication using WebSockets. It is designed for seamless conversations with a blend of intelligent responses and live messaging.  
@@ -43,17 +43,21 @@ cd IntelliChat
 
 ### 🔹 **2. Install Dependencies**  
 
-#### **Backend Dependencies:**  
+#### **Backend Dependencies (Single Line Installation):**  
 ```bash
 cd backend
 npm install @google/generative-ai bcrypt cookie-parser cors dotenv express express-validator ioredis jsonwebtoken mongoose morgan socket.io
 ```
+**List of Installed Packages:**  
+`@google/generative-ai, bcrypt, cookie-parser, cors, dotenv, express, express-validator, ioredis, jsonwebtoken, mongoose, morgan, socket.io`  
 
-#### **Frontend Dependencies:**  
+#### **Frontend Dependencies (Single Line Installation):**  
 ```bash
 cd ../frontend
 npm install @webcontainer/api axios highlight.js markdown-to-jsx react react-dom react-router-dom remixicon socket.io-client @vitejs/plugin-react eslint eslint-plugin-react eslint-plugin-react-hooks eslint-plugin-react-refresh globals postcss tailwindcss vite autoprefixer
 ```
+**List of Installed Packages:**  
+`@webcontainer/api, axios, highlight.js, markdown-to-jsx, react, react-dom, react-router-dom, remixicon, socket.io-client, @vitejs/plugin-react, eslint, eslint-plugin-react, eslint-plugin-react-hooks, eslint-plugin-react-refresh, globals, postcss, tailwindcss, vite, autoprefixer`  
 
 ---
 
